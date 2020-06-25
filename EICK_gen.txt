@@ -5,14 +5,19 @@
 # See the example.txt airport for all possible sections and items to add to this file.
 
 [airspace]
+radius = 25
 elevation = 502
+floor = 2500
+descendaltitude = 10000
+ceiling = 8000
+above = 9000
+transitionlevel = 5000
+usa = false
+metric = false
 center = N51.8413009644, W8.49110984802
-magneticvar = -5.241
+magneticvar = -5
 beacons =
-	CRK, N51.84060, W8.49427, 0, Cork
-	KER, N52.18220, W9.52449, 0, Kerry
-	FOY, N52.56630, W9.19541, 0, Foynes
-	CML, N52.45380, W7.48007, 0, Clonmel
+	CRK, N51.84056, W8.49417, Cork
 
 line1 =
 	N51.66445, W9.54238
