@@ -18,6 +18,8 @@ center = N51.8413009644, W8.49110984802
 magneticvar = -5
 beacons =
 	CRK, N51.84056, W8.49417, Cork
+	SOVIX, N51.42753, W8.56267, SOVIX
+	ERTER, N51.56203, W8.06022, ERTER
 
 line1 =
 	N51.66445, W9.54238
@@ -126,5 +128,7 @@ line3 =
 name = Cork Airport
 code = EICK
 runways =
-	rwy1, 07, N51.8416, W8.496, 63.0, 4298, 0, 0, 471
-	rwy2, 16, N51.8503, W8.49644, 160.0, 6998, 0, 0, 477
+	rwy1, 16, N51.8503, W8.49643, 164.0, 6998, 0, 0, 477, ROVAL, 7.9
+	rwy2, 34, N51.8323, W8.48581, 344.0, 6998, 0, 0, 461, GOSDA, 8
+
+climbaltitude = 5000
