@@ -129,6 +129,5 @@ name = Cork Airport
 code = EICK
 runways =
 	rwy1, 16, N51.8503, W8.49643, 164.0, 6998, 0, 0, 477, ROVAL, 7.9
-	# rwy2, 34, N51.8323, W8.48581, 344.0, 6998, 0, 0, 461, GOSDA, 8
 
 climbaltitude = 5000
