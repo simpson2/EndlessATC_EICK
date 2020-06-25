@@ -166,21 +166,18 @@ airlines =
 
 [area1]
 shape = circle
-name = Cork CTR
 radius = 15
 altitude = 5000
 position = N51.8413009644, W8.49110984802
 
 [area2]
 shape = circle
-name = Shannon CTA
 radius = 20
 altitude 3000
 position = N51.8413009644, W8.49110984802
 
 [area3]
 shape = circle
-name = Shannon CTA
 radius = 25
 altitude = 4000
 position = N51.8413009644, W8.49110984802
