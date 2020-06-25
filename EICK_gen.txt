@@ -8,9 +8,9 @@
 radius = 25
 elevation = 502
 floor = 2500
-descendaltitude = 10000
-ceiling = 8000
-above = 9000
+descendaltitude = 8000
+ceiling = 10000
+above = 11000
 transitionlevel = 5000
 usa = false
 metric = false
@@ -18,8 +18,14 @@ center = N51.8413009644, W8.49110984802
 magneticvar = -5
 beacons =
 	CRK, N51.84056, W8.49417, Cork
-	SOVIX, N51.42753, W8.56267, SOVIX
-	ERTER, N51.56203, W8.06022, ERTER
+	KURUM, N52.22867, W8.66467, Kurum
+	TISMO, N52.13467, W8.01300, Tismo
+	VAPAL, N51.87867, W7.82167, Vapal
+	GOTEM, N51.82383, W7.82000, Gotem
+	ELTIG, N51.75367, W7.83500, Eltig
+	ERTER, N51.56200, W8.06033, Erter
+	ORTOM, N51.27083, W8.29950, Ortom
+	SOVIX, N51.42750, W8.56283, Sovix
 
 line1 =
 	N51.66445, W9.54238
@@ -128,6 +134,32 @@ line3 =
 name = Cork Airport
 code = EICK
 runways =
-	rwy1, 16, N51.8503, W8.49643, 164.0, 6998, 0, 0, 477, ROVAL, 7.9
-
+	rwy1, 07, N51.8416, W8.496, 63.0, 4298, 0, 0, 471, 3, 070, 3.7, 244, DIGID, 12.8, LORLA, 12.5
+	rwy2, 16, N51.8503, W8.49644, 160, 6998, 0, 0, 477, 3, 0, 3, 0, BARNU, 12.0, ATLAM, 12.0
 climbaltitude = 5000
+sids = 
+	KURUM
+	TISMO
+	VAPAL
+	GOTEM
+	ELTIG
+	ERTER
+	ORTOM
+	SOVIX
+entrypoints = 
+	048
+	088
+	105
+	139
+	171
+	348
+
+[configurations]
+config1 =
+	0, rwy1, startland
+config2 =
+	0, rwy1, startlandrevtrack
+config3 =
+	0, rwy2, startlandtrack
+config4 =
+	0, rwy2, startlandrev
