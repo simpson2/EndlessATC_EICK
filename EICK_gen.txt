@@ -164,20 +164,20 @@ airlines =
 	VOE, 2, a319, volotea, s
 	MAY, 1, b738, bluemed, s
 
-#[area1]
-#shape = circle
-#radius = 15
-#altitude = 5000
-#position = N51.8413009644, W8.49110984802
+[area1]
+shape = circle
+radius = 15
+altitude = 0
+position = N51.8413009644, W8.49110984802
 
-#[area2]
-#shape = circle
-#radius = 20
-#altitude 3000
-#position = N51.8413009644, W8.49110984802
+[area2]
+shape = circle
+radius = 20
+altitude 3000
+position = N51.8413009644, W8.49110984802
 
-#[area3]
-#shape = circle
-#radius = 25
-#altitude = 4000
-#position = N51.8413009644, W8.49110984802
+[area3]
+shape = circle
+radius = 25
+altitude = 4000
+position = N51.8413009644, W8.49110984802
